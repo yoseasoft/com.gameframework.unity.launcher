@@ -1,0 +1,22 @@
+{
+  "name": "com.gameframework.unity.launcher",
+  "displayName": "GameFramework.Launcher",
+  "description": "The launcher module of game working for GameFramework",
+  "version": "1.0.1",
+  "unity": "2018.3",
+  "unityRelease": "0f1",
+  "license": "MIT",
+  "keywords": [ "Unity", "GameFramework", "Launcher" ],
+  "author": {
+    "name": "hurley",
+    "email": "yoseasoft@163.com",
+    "url": "https://github.com/yoseasoft/com.gameframework.unity.launcher"
+  },
+  "repository": {
+    "name": "com.gameframework.unity.launcher",
+    "type": "git",
+    "url": "https://github.com/yoseasoft/com.gameframework.unity.launcher.git"
+  },
+  "relatedPackages": {},
+  "dependencies": {}
+}
