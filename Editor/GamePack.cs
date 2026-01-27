@@ -1,6 +1,4 @@
 /// -------------------------------------------------------------------------------
-/// Launcher Module for GameEngine Framework
-///
 /// Copyright (C) 2025, Hainan Yuanyou Information Technology Co., Ltd. Guangzhou Branch
 ///
 /// Permission is hereby granted, free of charge, to any person obtaining a copy
@@ -28,7 +26,7 @@ using UnityEditor;
 using UnityEngine;
 using ICSharpCode.SharpZipLib.Zip;
 
-namespace Game.Framework.Launcher
+namespace GameFramework.Editor.Launcher
 {
     /// <summary>
     /// 业务包安装类

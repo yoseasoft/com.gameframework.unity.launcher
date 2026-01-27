@@ -1,6 +1,4 @@
 /// -------------------------------------------------------------------------------
-/// Launcher Module for GameEngine Framework
-///
 /// Copyright (C) 2025, Hainan Yuanyou Information Technology Co., Ltd. Guangzhou Branch
 ///
 /// Permission is hereby granted, free of charge, to any person obtaining a copy
@@ -27,7 +25,7 @@ using System.IO;
 using UnityEngine;
 using ICSharpCode.SharpZipLib.Zip;
 
-namespace Game.Framework.Launcher
+namespace GameFramework.Editor.Launcher
 {
     /// <summary>
     /// 压缩文件的辅助工具类，用于提供压缩文件的IO操作函数
