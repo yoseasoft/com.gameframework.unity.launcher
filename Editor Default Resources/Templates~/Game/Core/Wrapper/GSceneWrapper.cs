@@ -11,7 +11,7 @@ namespace Game
     /// <summary>
     /// 业务层二次封装的场景对象类
     /// </summary>
-    public class UScene : GameEngine.CScene
+    public class GSceneWrapper : GameEngine.CScene
     {
         // protected override void OnInitialize() { }
 

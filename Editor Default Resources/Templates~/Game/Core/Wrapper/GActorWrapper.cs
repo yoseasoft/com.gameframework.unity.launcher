@@ -2,16 +2,16 @@
 /// Game Framework
 /// 
 /// 创建者：Hurley
-/// 创建时间：2025-07-22
+/// 创建时间：2025-06-24
 /// 功能描述：
 /// </summary>
 
 namespace Game
 {
     /// <summary>
-    /// 业务层二次封装的原生对象类<br/>
+    /// 业务层二次封装的角色对象类
     /// </summary>
-    public class UObject : GameEngine.CObject
+    public class GActorWrapper : GameEngine.CActor
     {
         // protected override void OnInitialize() { }
 

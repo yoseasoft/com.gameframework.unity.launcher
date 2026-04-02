@@ -27,10 +27,10 @@ namespace Game
         {
             await GameEngine.ApplicationContext.Configure.LoadApplicationConfigure(@"application", async (path, ms) =>
             {
-                string filePath = NovaEngine.Environment.GetSystemPath("CONTEXT_PATH"); // , $"{path}.xml");
+                string filePath = NovaEngine.Environment.GetSystemPath("CONTEXT_FILE_PATH"); // , $"{path}.xml");
                 if (string.IsNullOrEmpty(filePath))
                 {
-                    Debugger.Warn("当前程序启动环境中无法找到“CONTEXT_PATH”的资源路径配置信息，加载配置数据失败！");
+                    Debugger.Warn("当前程序启动环境中无法找到“CONTEXT_FILE_PATH”的资源路径配置信息，加载配置数据失败！");
                     return false;
                 }
 
@@ -54,10 +54,10 @@ namespace Game
         {
             GameEngine.ApplicationContext.Configure.LoadBeanConfigure(@"bean", (path, ms) =>
             {
-                string filePath = NovaEngine.Environment.GetSystemPath("CONTEXT_PATH"); // , $"{path}.xml");
+                string filePath = NovaEngine.Environment.GetSystemPath("CONTEXT_FILE_PATH"); // , $"{path}.xml");
                 if (string.IsNullOrEmpty(filePath))
                 {
-                    Debugger.Warn("当前程序启动环境中无法找到“CONTEXT_PATH”的资源路径配置信息，加载配置数据失败！");
+                    Debugger.Warn("当前程序启动环境中无法找到“CONTEXT_FILE_PATH”的资源路径配置信息，加载配置数据失败！");
                     return false;
                 }
 

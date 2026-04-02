@@ -11,7 +11,7 @@ namespace Game
     /// <summary>
     /// 业务层二次封装的组件对象类<br/>
     /// </summary>
-    public class UComponent : GameEngine.CComponent
+    public class GComponentWrapper : GameEngine.CComponent
     {
     }
 }

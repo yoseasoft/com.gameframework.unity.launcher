@@ -9,9 +9,9 @@
 namespace Game
 {
     /// <summary>
-    /// 业务层二次封装的角色对象类
+    /// 业务层二次封装的视图对象类
     /// </summary>
-    public class UActor : GameEngine.CActor
+    public class GViewWrapper : GameEngine.CView
     {
         // protected override void OnInitialize() { }
 

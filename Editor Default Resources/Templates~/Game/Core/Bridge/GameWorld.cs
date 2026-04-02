@@ -125,6 +125,15 @@ namespace Game
         }
 
         /// <summary>
+        /// 游戏层的重构运行函数
+        /// </summary>
+        static async void RebuildGame()
+        {
+            // 重构业务对象类
+            await GameLoader.Reload(GameWorldCommandType.Assembly);
+        }
+
+        /// <summary>
         /// 游戏层的重载运行函数
         /// </summary>
         /// <param name="commandType">类型标识</param>

@@ -38,10 +38,10 @@ namespace Game
             List<Asset> configAssets = new();
             IEnumerable<Type> configTypes = GetConfigTableTypes();
 
-            string filePath = NovaEngine.Environment.GetSystemPath("CONFIG_PATH");
+            string filePath = NovaEngine.Environment.GetSystemPath("CONFIG_FILE_PATH");
             if (string.IsNullOrEmpty(filePath))
             {
-                Debugger.Warn("当前程序启动环境中无法找到“CONFIG_PATH”的资源路径配置信息，加载配置数据失败！");
+                Debugger.Warn("当前程序启动环境中无法找到“CONFIG_FILE_PATH”的资源路径配置信息，加载配置数据失败！");
                 return;
             }
 

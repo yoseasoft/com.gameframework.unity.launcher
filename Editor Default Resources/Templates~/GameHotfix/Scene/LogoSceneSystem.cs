@@ -3,10 +3,6 @@
 /// </summary>
 
 using System;
-using System.Linq;
-using System.Reflection;
-using System.Reflection.Emit;
-using UnityEngine;
 
 namespace Game
 {
@@ -23,7 +19,7 @@ namespace Game
         [OnStart]
         static void Start(this LogoScene self)
         {
-            Debug.Log("hello world");
+            Debugger.Info("hello world");
         }
 
         [OnDestroy]

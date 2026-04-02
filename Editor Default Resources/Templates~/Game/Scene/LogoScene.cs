@@ -7,8 +7,8 @@ namespace Game
     /// <summary>
     /// Logo场景对象类
     /// </summary>
-    [USceneClass("Logo")]
-    public sealed class LogoScene : UScene
+    [OnSceneConfigure("Logo")]
+    public sealed class LogoScene : GSceneWrapper
     {
     }
 }
